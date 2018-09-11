@@ -1,0 +1,73 @@
+@import 'colors.less';
+
+#registerEnterprise {
+	.page-header {
+		background-image: url('../img/loginEnterprise.jpeg');
+		background-size: cover;
+		background-position: top center;
+	}
+
+	.card {
+		.form {
+			min-height: 500px;
+		}
+
+		.form-control {
+			background-image: linear-gradient(to top, @brandOrange 2px, rgba(156, 39, 176, 0) 2px), linear-gradient(to top, #d2d2d2 1px, rgba(210, 210, 210, 0) 1px);
+		}
+
+		.description {
+			.sign-up-btn {
+				color: @brandOrangeRgba;
+				transition: ease 0.5s;
+				text-decoration-line: none;
+
+				&:hover {
+					cursor: pointer;
+					color: @brandOrange;
+				}
+			}
+		}
+
+		.card-header {
+			background: linear-gradient(60deg, @brandOrange, @brandYellow);
+			box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2), 0 13px 24px -11px @brandOrangeRgba;
+		}
+	}
+
+	.footer {
+		width: 0px;
+		bottom: 5px;
+    right: 5px;
+		.btn {
+			margin-right: 8%;
+			margin-bottom: 2%;
+			background-color: @brandOrange;
+			color: white;
+		}
+
+		.copyright {
+			padding: 0px;
+		}
+	}
+
+	.pagination {
+		justify-content: center;
+	}
+
+	.page-item.active {
+		a {
+			background-color: @brandOrange;
+			border-color: @brandYellow;
+		}
+	}
+
+	.input-group {
+		margin: 24px 0 0 0;
+	}
+
+	.descriptionMessage {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" type="image/png" href="../../assets/img/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>
+		Bolsa de Trabajo EPAE
+	</title>
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+	<!--     Fonts and icons     -->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+	<!-- CSS Files -->
+	<link href="../../assets/dashboard/css/material-dashboard.css?v=2.1.0" rel="stylesheet" />
+	<!-- CSS Just for demo purpose, don't include it in your project -->
+	<link href="../../assets/dashboard/demo/demo.css" rel="stylesheet" />
+	<link rel="stylesheet" href="../../assets/css/custom.css">
+</head>
+
+<body class="enterpriseEpae">
+	<div class="wrapper ">
+		<div class="sidebar" data-color="orange" data-background-color="white" data-image="../../assets/img/backgroundD.jpg">
+			<!--
+        Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
+
+        Tip 2: you can also add an image using data-image tag
+    -->
+			<div class="logo">
+				<a href="../../index.html" class="simple-text logo-normal">
+					Bolsa de Trabajo
+				</a>
+			</div>
+			<div class="sidebar-wrapper">
+				<ul class="nav">
+					<li class="nav-item active ">
+						<a class="nav-link" href="./profileEnterprise.html">
+							<i class="material-icons">person</i>
+							<p>Mi Empresa</p>
+						</a>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link" href="./posEnterprise.html">
+							<i class="material-icons">content_paste</i>
+							<p>Crear Oferta</p>
+						</a>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link" href="./myPostsEnterprise.html">
+							<i class="material-icons">library_books</i>
+							<p>Mis Ofertas</p>
+						</a>
+					</li>
+					<li class="nav-item ">
+						<a class="nav-link" href="./getEnterprise.html">
+							<i class="material-icons">bubble_chart</i>
+							<p>Postulantes</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="main-panel">
+			<!-- Navbar -->
+			<nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
+				<div class="container-fluid">
+					<div class="navbar-wrapper">
+						<a class="navbar-brand">Perfil de mi empresa</a>
+					</div>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false"
+					aria-label="Toggle navigation">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="navbar-toggler-icon icon-bar"></span>
+						<span class="navbar-toggler-icon icon-bar"></span>
+						<span class="navbar-toggler-icon icon-bar"></span>
+					</button>
+					<div class="collapse navbar-collapse justify-content-end">
+						<ul class="navbar-nav">
+							<li class="nav-item dropdown">
+								<a class="nav-link" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+								aria-expanded="false">
+									<i class="material-icons">notifications</i>
+									<span class="notification">2</span>
+									<p class="d-lg-none d-md-block">
+										Some Actions
+									</p>
+								</a>
+								<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+										<a class="dropdown-item" href="#">Tienes nuevos postulantes, evalúalos.</a>
+										<a class="dropdown-item" href="#">Revisa tu perfil</a>
+									</div>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link" href="../../screens/loginEnterprise.html" id="navbarDropdownMenuLink" data-toggle="dropdown"
+								aria-haspopup="true" aria-expanded="false">
+									<i class="material-icons">power_settings_new</i>
+								</a>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<!-- End Navbar -->
+			<div class="content">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-8">
+							<div class="card">
+								<div class="card-header card-header-primary">
+									<h4 class="card-title">Mi Perfil</h4>
+									<p class="card-category">Completa tu perfil para poder postear una oferta.</p>
+								</div>
+								<div class="card-body">
+									<form>
+										<div class="row">
+											<div class="col-md-8">
+												<div class="form-group">
+													<label class="bmd-label-floating">Nombre de la empresa</label>
+													<input type="text" class="form-control" value="Meta Color S.A.C.">
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="form-group">
+													<label class="bmd-label-floating">Ruc</label>
+													<input type="text" class="form-control" value="20458418803">
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-4">
+												<div class="form-group">
+													<label class="bmd-label-floating">Ciudad o Distrito</label>
+													<input type="text" class="form-control" value="Arequipa">
+												</div>
+											</div>
+											<div class="col-md-8">
+												<div class="form-group">
+													<label class="bmd-label-floating">Dirección</label>
+													<input type="text" class="form-control">
+												</div>
+											</div>
+										</div>
+
+										<div class="row">
+											<div class="col-md-6">
+												<!-- <div class="form-group">
+                            <label class="bmd-label-floating">Sector Empresarial</label>
+                            <input type="text" class="form-control">
+                          </div> -->
+												<div class="form-group">
+													<label for="exampleFormControlSelect1">Sector Empresarial</label>
+													<select class="form-control" id="exampleFormControlSelect1">
+															<option disabled>Sector Empresarial </option>
+															<option selected>Sector comercial</option>
+															<option >Sector minero</option>
+															<option>Sector construcción</option>
+															<option>Sector hostelería y turismo</option>
+															<option>Sector banca y finanzas</option>
+															<option>Sector educación</option>
+															<option>Sector agrario</option>
+													</select>
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="form-group">
+													<label for="exampleFormControlSelect1">Número de Trabajadores</label>
+													<select class="form-control" id="exampleFormControlSelect1">
+															<option disabled>Número de Trabajadores </option>
+															<option>1-10 trabajadores</option>
+															<option selected>11-100 trabajadores</option>
+															<option>101-500 trabajadores</option>
+															<option>501 a 1000 trabajadores</option>
+															<option>Mas de 1000 trabajadores</option>
+													</select>
+												</div>
+											</div>
+
+										</div>
+										<div class="row">
+											<div class="col-md-12">
+												<div class="form-group">
+													<label>Sobre Nosotros</label>
+													<div class="form-group">
+														<textarea class="form-control" rows="5" >Importante empresa de Publicidad Impresiones en Viniles, Banner, Corpóreos, Arquitectura de Interiores muebles publicitarios</textarea>
+													</div>
+												</div>
+											</div>
+										</div>
+										<button type="submit" class="btn btn-primary pull-right">Actualizar Perfil</button>
+										<div class="clearfix"></div>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card card-profile">
+								<div class="card-avatar">
+									<a>
+										<img class="img" src="../../assets/img/ucsmLogo.png" style="background: white" />
+									</a>
+								</div>
+								<div class="card-body">
+									<!-- <h6 class="card-category text-gray">CEO / Co-Founder</h6> -->
+									<h4 class="card-title">Meta Color S.A.C.</h4>
+									<p class="card-description">
+											Importante empresa de Publicidad Impresiones en Viniles, Banner, Corpóreos, Arquitectura de Interiores muebles publicitarios
+									</p>
+									<a href="./profile.html" class="btn btn-primary btn-round">Ver Más</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8">
+							<div class="card">
+								<div class="card-header card-header-primary">
+									<h4 class="card-title">Sobre el Contacto</h4>
+									<p class="card-category">Actualiza los datos de la persona encargada de contratación.</p>
+								</div>
+								<div class="card-body">
+									<form>
+										<div class="row">
+											<div class="col-md-6">
+												<div class="form-group">
+													<label class="bmd-label-floating">Nombres y Apellidos de contacto</label>
+													<input type="text" class="form-control" value="Yagui Oka David Carlos">
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="form-group">
+													<label class="bmd-label-floating">Cargo</label>
+													<input type="text" class="form-control">
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-6">
+												<div class="form-group">
+													<label class="bmd-label-floating">Celular</label>
+													<input type="text" class="form-control" value="(054) 273 082">
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="form-group">
+													<label class="bmd-label-floating">Email</label>
+													<input type="text" class="form-control" value="info@metacolor.com.pe">
+												</div>
+											</div>
+
+										</div>  
+										<button type="submit" class="btn btn-primary pull-right">Actualizar Información</button>
+										<div class="clearfix"></div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--   Core JS Files   -->
+	<script src="../../assets/dashboard/js/core/jquery.min.js" type="text/javascript"></script>
+	<script src="../../assets/dashboard/js/core/popper.min.js" type="text/javascript"></script>
+	<script src="../../assets/dashboard/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+	<script src="../../assets/dashboard/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+	<!--  Google Maps Plugin    -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+	<!-- Chartist JS -->
+	<script src="../../assets/dashboard/js/plugins/chartist.min.js"></script>
+	<!--  Notifications Plugin    -->
+	<script src="../../assets/dashboard/js/plugins/bootstrap-notify.js"></script>
+	<!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
+	<script src="../../assets/dashboard/js/material-dashboard.min.js?v=2.1.0" type="text/javascript"></script>
+	<!-- Material Dashboard DEMO methods, don't include it in your project! -->
+	<script src="../../assets/dashboard/demo/demo.js"></script>
+</body>
+
+</html>
