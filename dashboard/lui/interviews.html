@@ -20,7 +20,7 @@
 	<link rel="stylesheet" href="../../assets/css/custom.css">
 </head>
 
-<body class="studentEpae" id="myBenefits">
+<body class="studentEpae" id="interviews">
 	<div class="wrapper ">
 		<div class="sidebar" data-color="blue" data-background-color="white" data-image="../../assets/img/backgroundD.jpg">
 			<!--
@@ -35,7 +35,7 @@
 			</div>
 			<div class="sidebar-wrapper">
 				<ul class="nav">
-					<li class="nav-item active ">
+					<li class="nav-item  ">
 						<a class="nav-link" href="./myBenefits.html">
 							<i class="material-icons">
 								view_list
@@ -50,9 +50,9 @@
 						</a>
 					</li>
 
-					<li class="nav-item ">
-						<a class="nav-link" href="./interviews.html">
-							<i class="material-icons">
+					<li class="nav-item active">
+						<a class="nav-link " href="./interviews.html">
+							<i class="material-icons ">
 								face
 							</i>
 							<p>Programar Entrevistas</p>
@@ -94,20 +94,13 @@
 			<nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
 				<div class="container-fluid">
 					<div class="navbar-wrapper">
-						<a class="navbar-brand">Mis Beneficios</a>
+						<a class="navbar-brand">¿Tienes miedo cuando te entrevistan? Inscríbete aquí, es gratis y pierde ese miedo.</a>
 					</div>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false"
-					aria-label="Toggle navigation">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="navbar-toggler-icon icon-bar"></span>
-						<span class="navbar-toggler-icon icon-bar"></span>
-						<span class="navbar-toggler-icon icon-bar"></span>
-					</button>
 					<div class="collapse navbar-collapse justify-content-end">
 						<ul class="navbar-nav">
 							<li class="nav-item dropdown">
 								<a class="nav-link" href="../../screens/loginEnterprise.html" id="navbarDropdownMenuLink" data-toggle="dropdown"
-								aria-haspopup="true" aria-expanded="false">
+								 aria-haspopup="true" aria-expanded="false">
 									<i class="material-icons">power_settings_new</i>
 								</a>
 							</li>
@@ -119,64 +112,65 @@
 			<!-- End Navbar -->
 			<div class="content">
 				<div class="container-fluid">
-					<div class="card card-nav-tabs">
-						<div class="card-header card-header-danger">
-							<i class="material-icons">
-								business
-							</i> Meta Color S.A.C
+					<div class="row">
+						<div class="col-md-8">
+							<div class="card">
+								<div class="card-header card-header-primary">
+									<h4 class="card-title">Programa una entrevista</h4>
+									<p class="card-category">Coloca los datos que siguen, y espera la confirmación para esta cita</p>
+								</div>
+								<div class="card-body">
+									<form>
+										<div class="row">
+											<div class="col-md-6">
+												<div class="form-group">
+													<p style="    font-size: 14px;
+													line-height: 1.42857;
+													color: #AAAAAA;
+													font-weight: 400;">Fecha</p>
+													<input type="date" class="form-control">
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="form-group">
+													<label for="exampleFormControlSelect1">Hora</label>
+													<select class="form-control" id="exampleFormControlSelect1">
+														<option selected disabled>Seleccione horario </option>
+														<option>8:00 am a 10:00 am</option>
+														<option disabled>10:00 am a 12:00 pm</option>
+														<option>1:00 pm a 3:00 pm</option>
+														<option>3:00 pm a 5:00 pm</option>
+													</select>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-md-12">
+												Recuerda que todas las entrevistas y exámenes serán realizados en la UCSM
+											</div>
+
+										</div>
+										<a href="./myPostsEnterprise.html" class="btn btn-primary pull-right" style="color: white">
+											Programar Entrevista
+										</a>
+
+										<div class="clearfix"></div>
+									</form>
+								</div>
+							</div>
 						</div>
-						<ul class="list-group list-group-flush">
-							<li class="list-group-item cardItem"><i class="material-icons">
-									date_range
-								</i>10/08/2019</li>
-							<li class="list-group-item cardItem"><i class="material-icons">
-									card_membership
-								</i>2 puntos en ambiental</li>
-							<li class="list-group-item cardItem"><i class="material-icons">
-									assistant_photo
-								</i>Rechazado</li>
-
-						</ul>
-					</div>
-					<div class="card card-nav-tabs">
-						<div class="card-header card-header-success">
-							<i class="material-icons">
-								business
-							</i> Compartamos Financiera
+						<div class="col-md-4">
+							<div class="card">
+								<div class="card-header card-header-primary">
+									<h4 class="card-title">Mis entrevistas</h4>
+								</div>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item">Aún no realizaste ninguna entrevista</li>
+									
+								</ul>
+							</div>
 						</div>
-						<ul class="list-group list-group-flush">
-							<li class="list-group-item cardItem"><i class="material-icons">
-									date_range
-								</i>10/08/2019</li>
-							<li class="list-group-item cardItem"><i class="material-icons">
-									card_membership
-								</i>2 puntos en ambiental</li>
-							<li class="list-group-item cardItem"><i class="material-icons">
-									assistant_photo
-								</i>Aprobado</li>
-
-						</ul>
 					</div>
-					<div class="card card-nav-tabs">
-						<div class="card-header card-header-warning">
-							<i class="material-icons">
-								business
-							</i> Banco de crédito del Perú
-						</div>
-						<ul class="list-group list-group-flush">
-							<li class="list-group-item cardItem"><i class="material-icons">
-									date_range
-								</i>10/08/2019</li>
-							<li class="list-group-item cardItem"><i class="material-icons">
-									card_membership
-								</i>2 puntos en ambiental</li>
-							<li class="list-group-item cardItem"><i class="material-icons">
-									assistant_photo
-								</i>En Proceso</li>
-
-						</ul>
-					</div>
-
 				</div>
 			</div>
 		</div>
