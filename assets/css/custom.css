@@ -129,16 +129,18 @@
   padding: 0px;
 }
 #myPostsEnterprise .cardMyPost {
-  min-width: 30rem;
+  min-width: auto;
 }
 #myBenefits .container-fluid {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 #myBenefits .card {
   width: 18rem;
   margin: 5px;
+  margin-bottom: 50px;
 }
 #myBenefits .card-header,
 #myBenefits .cardItem {
@@ -149,7 +151,7 @@
   margin-right: 5px;
 }
 #jobs .cardMyPost {
-  min-width: 30rem;
+  min-width: auto;
 }
 #jobs .dropdown button {
   width: 100%;
